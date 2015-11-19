@@ -6,12 +6,12 @@
 
 CREATE TABLE CLASS
 (
-  classid        int       NOT NULL AUTO_INCREMENT,
-  classtype      char(25)  NOT NULL ,
-  classdatetime datetime  NOT NULL ,
-  faculid        int       NOT NULL , 
-  cid            int       NOT NULL , 
-  PRIMARY KEY (classid)
+  ClassID        int       NOT NULL AUTO_INCREMENT,
+  ClassType      char(25)  NOT NULL ,
+  ClassDateTime datetime  NOT NULL ,
+  FaculID        int       NOT NULL , 
+  CID            int       NOT NULL , 
+  PRIMARY KEY (ClassID)
 ) ENGINE=INNODB;
 
 
